@@ -15,7 +15,7 @@
 ======
 下面那些英文的小总结
 ======
-
+这个得写在前面:这个repo是不能直接使用的,因为用了中文的注释...
 这是个Scrapy项目,仅仅用于教育目的.
 
 Ubuntu的话,
@@ -45,17 +45,19 @@ Ubuntu的话,
 稍微介绍下目录结构
 ======
 
-dirbot/
-        spider/
-                dmoz.py         最主要的东西,进去看吧
-                __init__.py     初始化spider这个子包(subpackage)
-        __init__.py             python里面用来初始化一个package/subpackage的文件 `See more here. <https://docs.python.org/2/tutorial/modules.html`
-        items.py                dirbot里面定义的Item的地方.实际上定义了scrapy.item这个类的子类,叫做Website.
-        pipelines.py            dirbot里面定义的相当于过滤器的东西,用于和谐"不和谐"的字符串
-        settings.py             定义了整个scrapy项目的比较关键的配置.
-README.rst                      就是你现在看的这个东西0,0
-scrapy.cfg                      scrapy的配置文件(我猜的,反正这个文件里面指向了dirbot/settings.py这个文件)
-setup.py                        用来安装和管理python包(package)的文件 `See more here. <https://docs.python.org/2/install/index.html>`
+::
+
+   dirbot/
+         spider/
+               dmoz.py        最主要的东西,进去看吧
+               __init__.py    初始化spider这个子包(subpackage)
+         __init__.py          python里面用来初始化一个package/subpackage的文件 `See more here. <https://docs.python.org/2/tutorial/modules.html`
+         items.py             dirbot里面定义的Item的地方.实际上定义了scrapy.item这个类的子类,叫做Website.
+         pipelines.py         dirbot里面定义的相当于过滤器的东西,用于和谐"不和谐"的字符串
+         settings.py          定义了整个scrapy项目的比较关键的配置.
+   README.rst                 就是你现在看的这个东西0,0
+   scrapy.cfg                 scrapy的配置文件(我猜的,反正这个文件里面指向了dirbot/settings.py这个文件)
+   setup.py                   用来安装和管理python包(package)的文件 `See more here. <https://docs.python.org/2/install/index.html>`
 
 
 ======
