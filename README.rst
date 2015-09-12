@@ -60,6 +60,8 @@ Ubuntu的话,
    setup.py                   用来安装和管理python包(package)的文件 `See more here. <https://docs.python.org/2/install/index.html>`
 
 
+最悲伤的事情，莫过于你喜欢的人不喜欢你。
+
 ======
 dirbot
 ======
